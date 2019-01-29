@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=East+Sea+Dokdo|Permanent+Marker" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <meta charset= utf8>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Mein Musiktool </title>
+</head>
+
+
+<body onload="drawvolumecontroller(20,35,8);">
+<div id="heading"><h1> Mein Musiktool</h1></div>
+
+<div><p>Dr&uuml;cke die wei&szlig;en Tasten und mach Musik.<br>
+Let's play the piano!</p>
+</div>
+
+<div><img id="klaviatur" src="piano.jpg" width="70%" height="auto">
+
+
+<audio id="audio"></audio>
+<button id="button1" onmousedown="play('button1.mp3')" onmouseup="pause('button1.mp3')" onmouseout="pause('button1.mp3')">
+   <span>C</span>
+</button>
+
+<button id="button2" onmousedown="play('button2.mp3')" onmouseup="pause('button2.mp3')" onmouseout="pause('button2.mp3')">
+   <span>D</span>
+</button>
+
+<button id="button3" onmousedown="play('button3.mp3')" onmouseup="pause('button3.mp3')" onmouseout="pause('button3.mp3')">
+   <span>E</span>
+</button>
+
+<button id="button4" onmousedown="play('button4.mp3')" onmouseup="pause('button4.mp3')" onmouseout="pause('button4.mp3')">
+   <span>F</span>
+</button>
+<button id="button5" onmousedown="play('button5.mp3')" onmouseup="pause('button5.mp3')" onmouseout="pause('button5.mp3')">
+   <span>G</span>
+</button>
+
+<button id="button6" onmousedown="play('button6.mp3')" onmouseup="pause('button6.mp3')" onmouseout="pause('button6.mp3')">
+   <span>A</span>
+</button>
+<button id="button7" onmousedown="play('button7.mp3')" onmouseup="pause('button7.mp3')" onmouseout="pause('button7.mp3')">
+   <span>H</span>
+</button>
+
+<button id="button8" onmousedown="play('button8.mp3')" onmouseup="pause('button8.mp3')" onmouseout="pause('button8.mp3')">
+   <span>C'</span>
+</button>
+
+<button id="button9" onmousedown="play('button9.mp3')" onmouseup="pause('button9.mp3')" onmouseout="pause('button9.mp3')">
+   <span>D'</span>
+</button>
+
+<button id="button10" onmousedown="play('button10.mp3')" onmouseup="pause('button10.mp3')" onmouseout="pause('button10.mp3')">
+   <span>E'</span>
+</button>
+
+<button id="button11" onmousedown="play('button11.mp3')" onmouseup="pause('button11.mp3')" onmouseout="pause('button11.mp3')">
+   <span>F'</span>
+</button>
+
+<button id="button12" onmousedown="play('button12.mp3')" onmouseup="pause('button12.mp3')" onmouseout="pause('button12.mp3')">
+   <span>G'</span>
+</button>
+
+<button id="button13" onmousedown="play('button13.mp3')" onmouseup="pause('button13.mp3')" onmouseout="pause('button13.mp3')">
+   <span>A'</span>
+</button>
+
+<button id="button14" onmousedown="play('button14.mp3')" onmouseup="pause('button14.mp3')" onmouseout="pause('button14.mp3')">
+   <span>H'</span>
+</button>
+<!-- <div id="volumcontroller">
+</div>
+<div id="volumeindicator">
+    8
+</div> -->
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
